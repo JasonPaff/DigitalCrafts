@@ -1,0 +1,47 @@
+.score
+{    
+    background-color: black;
+    width: 75px;
+    height: 25px;
+    margin-left: 70%;
+}
+.red_square 
+{
+    background-color: red;
+    float:left;
+    width: 75px;
+    height: 25px;
+    margin: 3px;
+}
+.yellow_square 
+{
+    background-color: gold;
+    float:left;
+    width: 75px;
+    height: 25px;
+    margin: 3px;
+}
+.green_square 
+{
+    background-color: green;
+    float:left;
+    width: 75px;
+    height: 25px;
+    margin: 3px;
+}
+.blue_square 
+{
+    background-color: blue;
+    float:left;
+    width: 75px;
+    height: 25px;
+    margin: 3px;
+}
+.missing_square
+{
+    background-color: black;
+    float:left;
+    width: 75px;
+    height:25px;
+    margin: 3px;
+}

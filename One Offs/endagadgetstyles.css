@@ -1,0 +1,17 @@
+#gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img 
+{
+    width: 150px;
+}
+
+#ind
+{
+    display: flex;
+    flex-direction: column;    
+}

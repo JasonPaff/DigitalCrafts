@@ -1,0 +1,20 @@
+.news_image {
+    width: 250px;
+    height: 250px;
+}
+
+.news_feed {
+    width: 300px;
+    text-align:center;
+    border: 10px solid rgb(0, 51, 128);
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}

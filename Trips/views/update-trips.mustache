@@ -1,0 +1,21 @@
+<html lang="en">
+<head><title>Update a Trip</title></head>
+<body>
+
+<form method="get" action="/">
+    <button>Home Page</button>
+</form>
+
+<h1>Update a trip</h1>
+
+<form method="POST" action="/update-trips">
+    <select name="selector">
+        {{#trips}}
+            <option>{{id}}. {{title}} - {{dateDeparted}} to {{dateReturned}}</option>
+        {{/trips}}
+    </select>
+
+    <button>Update Trip</button>
+</form>
+</body>
+</html>

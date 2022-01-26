@@ -1,0 +1,26 @@
+<html>
+<head><title>Update Trip</title></head>
+<body>
+<h1>Update Trip</h1>
+
+<form method="get" action="/">
+    <button>Home Page</button>
+</form>
+
+<form method="POST" action="/update-trip">
+
+    <input type="text" value="{{id}}" name="id" style="display:none;"/>
+    <input type="text" value="{{title}}" name="title"/>
+    <input type="text" value="{{destination}}" name="destination"/>
+    <input type="date" value="{{dateDeparted}}" name="dateDeparted"/>
+    <input type="date" value="{{dateReturned}}" name="dateReturned"/>
+    <br>
+    <br>
+    <button>Save Changes</button>
+</form>
+
+<form method="GET" action="/update-trips">
+    <button>Cancel</button>
+</form>
+</body>
+</html>

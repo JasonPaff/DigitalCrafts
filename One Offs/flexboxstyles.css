@@ -1,0 +1,39 @@
+#blue_box
+{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+}
+
+#horizontal_boxes
+{
+    display: flex;
+    justify-content: center;
+}
+
+#vertical_boxes
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#pink_box
+{
+    background-color: pink;
+    width: 75px;
+    height: 50px;
+    margin: 20px;
+}
+
+#brown_box
+{
+    position: absolute;
+    background-color: yellow;
+    width: 50px;
+    height: 20px;
+}
+
+#pink_box_text
+{
+    color: green;
+}

@@ -1,0 +1,21 @@
+<html lang="en">
+<head><title>Delete a Trip</title></head>
+<body>
+
+<form method="get" action="/">
+    <button>Home Page</button>
+</form>
+
+<h1>Delete a trip</h1>
+
+<form method="POST" action="/delete-trips">
+    <select name="selector">
+        {{#trips}}
+            <option>{{id}}. {{title}} : {{destination}} - {{dateDeparted}} to {{dateReturned}}</option>
+        {{/trips}}
+    </select>
+
+    <button>Delete Trip</button>
+</form>
+</body>
+</html>

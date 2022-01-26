@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html style="display: table; margin: auto">
+    <head>
+    </head>
+    <body style="display: table-cell; text-align: center;">
+        <div id="addOrders" style="padding-top: 10px;">
+            New Drink Order Form
+            <div>
+                <select id="coffeeSelect"></select>
+                <input type="radio" name="size" value="Small"/> Small
+                <input type="radio" name="size" value="Medium" checked/> Medium
+                <input type="radio" name="size" value="Large" /> Large <br/>
+                <input type="email" id="addOrderEmailTextBox" placeholder="Email Address (required)" required/>
+                <button id="addOrderButton" style="margin-top: 5px;">Submit Order</button>
+            </div><br/>
+            <div>
+                <button id="showAllOrdersButton" style="margin-top: 20px;">Show All Orders</button>
+                <button id="hideAllOrdersButton" style="margin-top: 20px;">Hide All Orders</button>
+            </div>
+        </div>
+        <div id="viewOrdersDiv">
+        </div>
+    </body>
+</html>
+<script src="app.js"></script>

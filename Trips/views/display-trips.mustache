@@ -1,0 +1,22 @@
+<html lang="en">
+<head><title>Display Trips</title></head>
+<body>
+
+<form method="get" action="/">
+    <button>Home Page</button>
+</form>
+
+<h1>Your trips</h1>
+
+<ul>
+    {{#trips}}
+        <li>{{title}}</li>
+        <li>{{destination}}</li>
+        <li>{{dateDeparted}}</li>
+        <li>{{dateReturned}}</li>
+        <br>
+    {{/trips}}
+</ul>
+
+</body>
+</html>

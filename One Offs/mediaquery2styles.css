@@ -1,0 +1,15 @@
+@media (max-width: 1280px)
+{
+    body {
+        display: none;
+        background-color: green;
+    }
+}
+
+@media (min-width: 1281px)
+{
+    body {
+        display: initial;
+        background-color: purple;
+    }
+}
