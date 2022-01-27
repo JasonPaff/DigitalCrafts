@@ -1,0 +1,22 @@
+﻿<html lang="en">
+<head>
+    <title>Trip Tracker</title>
+</head>
+<body>
+<form method="post" action="/login">
+    <h1>Login</h1>
+    <input type="text" placeholder="Enter username" name="username"/>
+    <input type="text" placeholder="Enter password" name="password"/>
+    <button>Submit</button>
+    {{loginMessage}}
+</form>
+
+<form method="post" action="/register">
+    <h1>Register</h1>
+    <input type="text" placeholder="Enter username" name="registerUsername"/>
+    <input type="text" placeholder="Enter password" name="registerPassword"/>
+    <button>Submit</button>
+    {{registerMessage}}
+</form>
+</body>
+</html>
