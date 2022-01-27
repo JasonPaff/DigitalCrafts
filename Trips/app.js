@@ -198,9 +198,8 @@ app.post('/login', (req, res) => {
 });
 
 app.get('/log-out', (req, res) => {
-    console.log(req.session.username);
     if (req.session && req.session.username)
         delete req.session['username'];
-    console.log(req.session.username);
+
     res.redirect('/');
 });
